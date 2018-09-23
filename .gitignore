@@ -1,0 +1,53 @@
+#For vi
+.*.swp
+
+#For Node.js
+node_modules/
+npm-debug.log
+
+#For OS
+*.DS_Store
+$RECYCLE.BIN/
+Thumbs.db
+UserInterfaceState.xcuserstate
+.env
+
+#For Other
+#あらゆる階層の「cache」フォルダの中身だけを除外。
+#「cache」フォルダ自体は無視しない。
+**/cache/*
+!.gitkeep
+
+#For Ionic
+*~
+*.sw[mnpcod]
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+
+.idea/
+.vscode/
+.sass-cache/
+.versions/
+.sourcemaps/
+coverage/
+collection/
+dist/
+tmp/
+temp/
+core/theme-builder/
+core/test-components/
+core/css/
+angular/css/
+
+.package.tmp.json
+
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
+
