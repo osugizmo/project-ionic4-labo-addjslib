@@ -40,7 +40,7 @@ core/test-components/
 core/css/
 angular/css/
 www/
-platform/
+platforms/
 plugins/
 
 .package.tmp.json
